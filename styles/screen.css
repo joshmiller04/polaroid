@@ -34,12 +34,12 @@ body {
     margin: 10px 0;
 }
 
-.sub  input {
+.subscribe  input {
     padding: 10px;
     width: 60%;
 }
 
-.sub button {
+.subscribe button {
     background: var(--accent-color);
     color: white;
     padding: 10px 20px;
