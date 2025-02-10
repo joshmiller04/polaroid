@@ -16,12 +16,16 @@ body {
     color: var(--primary-color);
     font-size: 3rem;
     font-weight: bold;
-    padding: 150px 20px; /* Adjust spacing */
-    
-    background-image: url('/imgs/camera.png'); /* Set background image */
-    background-size: contain; /* Ensure full visibility */
+    padding: 150px 20px;
+
+    background-image: url('/Imgs/camera.png'); /* Ensure correct path */
+    background-size: cover; /* Ensures the image fills the container */
     background-position: center;
     background-repeat: no-repeat;
+    height: 80vh; /* Adjust to fit most screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .features {
