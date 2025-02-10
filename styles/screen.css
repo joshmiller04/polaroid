@@ -10,14 +10,18 @@ body {
     text-align: center;
 }
 
-.hero h1 {
+.hero {
+    position: relative;
+    text-align: center;
+    color: var(--primary-color);
     font-size: 3rem;
     font-weight: bold;
-}
-
-.hero img {
-    width: 60%;
-    max-width: 500px;
+    padding: 150px 20px; /* Adjust spacing */
+    
+    background-image: url('/imgs/camera.png'); /* Set background image */
+    background-size: contain; /* Ensure full visibility */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .features {
