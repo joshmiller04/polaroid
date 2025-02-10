@@ -22,7 +22,7 @@ body {
     font-weight: bold;
     padding: 150px 20px;
 
-    background-image: url('/Imgs/camera.png'); /* Ensure correct path */
+    background-image: url('/images/camera.png'); /* Ensure correct path */
     background-size: cover; /* Ensures the image fills the container */
     background-position: center;
     background-repeat: no-repeat;
